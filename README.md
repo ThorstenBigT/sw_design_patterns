@@ -1,1 +1,2 @@
-# sw_design_patterns
+# Software Design Patterns in Python
+## Factory Method
