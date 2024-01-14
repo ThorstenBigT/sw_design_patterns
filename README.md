@@ -1,18 +1,31 @@
 # Software Design Patterns in Python
 
-This repo contains an overview of software design patterns. It contains sample codes and compares individual patterns which each other to get familiar when to use which pattern.
+Within this repository, you'll discover a comprehensive exploration of software design patterns. Included are Python code samples and a comparative analysis highlighting distinctions among various patterns.
+
+## Table of Contents
+
+- [Software Design Patterns in Python](#software-design-patterns-in-python)
+- [Definitions](#definitions)
+    - [Factory Pattern](#factory-pattern)
+    - [Mixin Pattern](#mixin-pattern)
+- [Factories vs. Mixins](#factories-vs-mixins)
+    - [Example Factory](#example-factory)
+    - [Example Mixins](#example-mixins)
+    - [Differnces](#differences)
+    - [Conclusion](#conclusion)
+
 
 ## Definitions
 
 ### Factory Pattern
 
-The Factory Method Pattern is a creational design pattern that defines an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. It involves declaring an abstract method, known as the factory method, which subclasses implement to produce instances of a class.
+The Factory Pattern is a creational design pattern that defines an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. It involves declaring an abstract method, known as the factory method, which subclasses implement to produce instances of a class.
 
-### Mixins Pattern
+### Mixin Pattern
 
 Mixins are a design pattern in object-oriented programming that allows the combination of behaviors from multiple classes in a single class. The idea is to create small, reusable classes that encapsulate a specific behavior or functionality and then combine them to create a new class with a composition of these behaviors.
 
-## Factory vs. Mixins
+## Factories vs. Mixins
 
 To compare both approaches, I try illustrate their distinctions through the creation of diverse document types. Initially, we examine the factory method, followed by the implementation of equivalent functionality using the mixin pattern.
 
